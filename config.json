@@ -1,0 +1,12 @@
+{
+  "user_name": "Yom",
+  "ai_name": "Pal",
+  "ai_tone": "Friendly",
+  "theme": "dark",
+  "proactive_chat": true,
+  "character_pack": "imgset1",
+  "font_face": "Inter_24pt-Regular.ttf",
+  "font_size": 16,
+  "width": 340,
+  "height": 640
+}
