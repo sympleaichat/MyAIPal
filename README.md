@@ -41,7 +41,7 @@ Clone the Repository:
 
 Bash
 
-git clone https://github.com/your-username/my-ai-pal.git
+git clone https://github.com/sympleaichat/MyAIPal.git
 cd my-ai-pal
 Install Dependencies: It is highly recommended to use a virtual environment to manage the project's dependencies.
 
