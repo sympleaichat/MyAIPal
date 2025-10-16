@@ -51,6 +51,8 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 Download a Local LLM Model: This application requires a GGUF-formatted language model. You can download a model from sources like Hugging Face. Place the downloaded model file into the ./models/ directory. The code is pre-configured to look for tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf.
+[https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main)
+
 
 Run the Application:
 
