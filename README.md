@@ -56,13 +56,26 @@ pip install -r requirements.txt
 
 
 4. Download a Local LLM Model: This application requires a GGUF-formatted language model. You can download a model from sources like Hugging Face. Place the downloaded model file into the ./models/ directory. The code is pre-configured to look for tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf.
-[https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main)
 
 
 5. Run the Application:
 ```Bash
 python main.py
 ```
+
+
+## Model Used
+
+This application uses the TinyLlama-1.1B-Chat-v1.0-GGUF model.
+
+**Important:** The model file is not included in this repository. You need to download it yourself from the official Hugging Face repository.
+
+1.  Go to the following URL:
+    [https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tree/main)
+2.  Download the desired GGUF file (e.g., `tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf`).
+3.  Place the downloaded model file into the `models` directory of this project.
+
+By separating the code and the model, users can choose their preferred quantization level, and we can respect the model's original distribution source.
 
 
 ## Usage
